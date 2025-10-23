@@ -7,7 +7,7 @@ define('DB_PASS', '');     // Alterar em ambiente de produção
 
 // Configurações do Sistema
 define('SITE_TITLE', 'Sistema de Gestão de Táxi');
-define('BASE_URL', 'http://localhost/taxi-management-system/'); // Ajustar conforme a instalação
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] .'/taxi-management-system/'); // Ajustar conforme a instalação
 
 // Níveis de Acesso
 define('NIVEL_ADMIN', 'Administrador');
