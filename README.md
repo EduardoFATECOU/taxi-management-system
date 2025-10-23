@@ -1,6 +1,5 @@
 # Sistema de Gestão de Táxi
 
-**Autor:** Manus AI
 **Versão:** 1.0
 **Tecnologias:** PHP, CSS, PDO, MariaDB
 
